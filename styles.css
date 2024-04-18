@@ -32,12 +32,35 @@ body {
     flex-direction: column;
 }
 
+.name-address {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+.name-address p {
+    color: hsl(75, 94%, 57%);
+    margin-top: 4px;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+}
+
+img {
+    display: block;
+    height: 88px;
+    width: 88px;
+    clip-path: circle();
+}
+
 .card__items {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
 }
 
 .card__item {
@@ -53,29 +76,4 @@ body {
 .card__item:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
-}
-
-p {
-    color: hsl(0, 0%, 100%);
-}
-
-.name-address {
-    color: hsl(0, 0%, 100%);
-    text-align: center;
-}
-
-.name-address p {
-    color: hsl(75, 94%, 57%);
-    margin-top: 4px;
-}
-
-h1 {
-    margin-bottom: 0;
-}
-
-img {
-    display: block;
-    height: 88px;
-    width: 88px;
-    clip-path: circle();
 }
